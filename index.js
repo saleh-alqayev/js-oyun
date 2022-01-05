@@ -13,7 +13,7 @@ const neticeniYaz = document.getElementById('netice')
 
 kagiz.onclick = seciminiEle
 das.onclick = seciminiEle
-qayci.onclick = seciminiEle
+scissor.onclick = seciminiEle
 
 function seciminiEle(){
     const komputer = randomSecim()
@@ -25,25 +25,25 @@ function seciminiEle(){
     }
 
     else if(menimSecimim ==0 && komputer ==1){
-        netice = 'Qazandiniz'
+        netice = 'You win'
     }
     else if(menimSecimim == 0 && komputer ==2){
-        netice = 'Meglub oldunuz'
+        netice = 'You lose'
     }
     else if(menimSecimim ==1 && komputer == 0){
-        netice = 'Qazandiniz'
+        netice = 'You win'
     }
     else if(menimSecimim ==1 && komputer ==1){
         netice ='Try again'
     }
     else if(menimSecimim ==1 && komputer ==2){
-        netice = 'Meglub oldunuz'
+        netice = 'You  lose'
     }
     else if(menimSecimim == 2 && komputer ==0){
-        netice ='Meglub oldunuz'
+        netice ='Qazandiniz'
     }
     else if(menimSecimim ==2 && komputer==1){
-        netice = 'Qazandiniz'
+        netice = 'Meglub oldunuz'
     }
     else {
             netice = 'Try again'
